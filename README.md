@@ -1,11 +1,13 @@
-The project consists of "header" and "cards" components. Cards component is based on map function that goes thrue array of objects that displays cards and their attributes. I didn't know how to make database so I used js file with const variable. When the card is clicked you get the details of, in this case, the product.
+Description
+This project consists of two main components: "Header" and "Cards". The "Cards" component utilizes the map function to iterate through an array of objects, displaying cards and their respective attributes. Clicking on a card displays the details of the selected product.
 
-I have spend around a week on the project because I was out of town and than I got sick so I was unable to work.
+Challenges
+I faced several challenges during this project:
 
-Most challanging
-- how to implement or use medusa server
-- implementing or using tailwind (mostly cause of lacking in time)
+Implementing or using Medusa server
+Implementing or using Tailwind CSS (mainly due to a lack of time)
+Achievements
+Despite the challenges, I am particularly proud of:
 
-Most proud of
--  dynamicly file routing (card detail page) because it was my first time using or even seeing something like that but it was fun learning it
--  using useState hook for chaning display of "HTML" that can be seen also on card details page (loading was there so file has time to fetch the number of index from url)
+Dynamically generated file routing for card detail pages. This was my first time encountering and working with this concept, and I found it enjoyable to learn.
+Using the useState hook to change the display of HTML elements. This can be seen on the card details page, where a loading state is shown to fetch the number of the index from the URL.
